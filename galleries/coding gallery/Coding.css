@@ -1,0 +1,243 @@
+.fade-carousel {
+  position: relative;
+  height: 80vh;
+}
+.fade-carousel .carousel-inner .item {
+  height: 80vh;
+}
+.fade-carousel .carousel-indicators > li {
+  margin: 0 px;
+  background-color: #f39c12;
+  border-color: #f39c12;
+  opacity: 0.7;
+}
+.fade-carousel .carousel-indicators > li.active {
+  width: 20px;
+  height: 20px;
+  opacity: 1;
+}
+
+/* Headers */
+.hero {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: rgba(48, 47, 47, 0.87);
+  z-index: 3;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.815);
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  -moz-transform: translate3d(-50%, -50%, 0);
+  -ms-transform: translate3d(-50%, -50%, 0);
+  -o-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+  border-radius: 25px;
+}
+.hero h1 {
+  font-size: 6em;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.fade-carousel .carousel-inner .item .hero {
+  opacity: 0;
+  -webkit-transition: 2s all ease-in-out 0.1s;
+  -moz-transition: 2s all ease-in-out 0.1s;
+  -ms-transition: 2s all ease-in-out 0.1s;
+  -o-transition: 2s all ease-in-out 0.1s;
+  transition: 2s all ease-in-out 0.1s;
+}
+.fade-carousel .carousel-inner .item.active .hero {
+  opacity: 1;
+  -webkit-transition: 2s all ease-in-out 0.1s;
+  -moz-transition: 2s all ease-in-out 0.1s;
+  -ms-transition: 2s all ease-in-out 0.1s;
+  -o-transition: 2s all ease-in-out 0.1s;
+  transition: 2s all ease-in-out 0.1s;
+}
+
+/* Slide backgrounds */
+.fade-carousel .slides .slide-1,
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3,
+.fade-carousel .slides .slide-4,
+.fade-carousel .slides .slide-5,
+.fade-carousel .slides .slide-6,
+.fade-carousel .slides .slide-7,
+.fade-carousel .slides .slide-8 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.fade-carousel .slides .slide-1 {
+  background-image: url(images/codingall1/PRISM.png);
+}
+.fade-carousel .slides .slide-2 {
+  background-image: url(images/codingall1/bootique.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-3 {
+  background-image: url(images/codingall1/nodeyourcode2.png);
+  background-size: contain;
+  /* background-position: bottom; */
+}
+.fade-carousel .slides .slide-4 {
+  background-image: url(images/codingall1/vacayscreen.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-5 {
+  background-image: url(images/codingall1/danazonscreenshot.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-6aa {
+  background-image: url(images/landscape_image1/433-overview.PNG);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-7 {
+  background-image: url(images/codingall1/danazonscreenshot.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-8aa {
+  background-image: url(images/landscape_image1/Spamerover.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-9aa {
+  background-image: url(images/landscape_image1/340East75th.PNG);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-10aa {
+  background-image: url(images/landscape_image1/Brevoort-wb-opt-2.jpg);
+}
+.fade-carousel .slides .slide-11aa {
+  background-image: url(images/landscape_image1/Sovereign2.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-12aa {
+  background-image: url(images/landscape_image1/Sovereign.PNG);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-13aa {
+  background-image: url(images/landscape_image1/60Sutton.JPG);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-14aa {
+  background-image: url(images/landscape_image1/InzerilloIsland.JPG);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-15aa {
+  background-image: url(images/landscape_image1/crichtonroof.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-16aa {
+  background-image: url(images/landscape_image1/Albert.JPG);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-17aa {
+  background-image: url(images/landscape_image1/60sutton1_lg.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-18aa {
+  background-image: url(images/landscape_image1/khaitani-int-fin.JPG);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-19aa {
+  background-image: url(images/landscape_image1/25fithpano.jpg);
+  background-size: contain;
+  position: center;
+}
+.fade-carousel .slides .slide-20aa {
+  background-image: url(images/landscape_image1/Brevoortrooftop.PNG);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-21aa {
+  background-image: url(images/landscape_image1/woosterstreet.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-22aa {
+  background-image: url(images/landscape_image1/crichtonroof.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-23aa {
+  background-image: url(images/landscape_image1/145Lexington.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-24aa {
+  background-image: url(images/landscape_image1/340roofRender.PNG);
+}
+.fade-carousel .slides .slide-25aa {
+  background-image: url(images/landscape_image1/IMG_1241.jpg);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-26aa {
+  background-image: url(images/landscape_image1/IMG_0080.jpg);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-27aa {
+  background-image: url(images/landscape_image1/IMG_0031.jpg);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-28aa {
+  background-image: url(images/landscape_image1/IMG_0271.jpg);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-29aa {
+  background-image: url(images/landscape_image1/IMG_0901.jpg);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-30aa {
+  background-image: url(images/landscape_image1/IMG_2494.jpg);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-31aa {
+  background-image: url(images/landscape_image1/IMG_3259(1).jpg);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-32aa {
+  background-image: url(images/landscape_image1/IMG_3980-(2).jpg);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-33aa {
+  background-image: url(images/landscape_image1/HamshawStoneStairs.JPG);
+  background-size: contain;
+  position: center;
+}
+.fade-carousel .slides .slide-34aa {
+  background-image: url(images/landscape_image1/Untitled.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-35aa {
+  background-image: url(images/landscape_image1/340playground.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-36aa {
+  background-image: url(images/landscape_image1/IMG_0889.jpg);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-37aa {
+  background-image: url(images/landscape_image1/Yorktownterr.jpg);
+  background-size: contain;
+}
+
+/********************************/
+/*          Media Queries       */
+/********************************/
+@media screen and (min-width: 980px) {
+  .hero {
+    width: 980px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .hero h1 {
+    font-size: 4em;
+  }
+}
+
+carodiv {
+  position: absolute;
+  top: 60px;
+  margin-top: 60px;
+}

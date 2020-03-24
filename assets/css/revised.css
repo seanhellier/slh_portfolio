@@ -1,0 +1,117 @@
+#header-logo {
+  margin-top: 10px;
+  opacity: 0.8;
+}
+.nava {
+  font-family: "Syncopate", sans-serif;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  letter-spacing: 15px;
+  /* margin-bottom: 5px; */
+}
+.navp {
+  font-family: "Syncopate", sans-serif;
+  font-size: 29px;
+  color: white;
+  letter-spacing: 8px;
+  /* margin-bottom: 5px; */
+}
+.s-header {
+  height: 100px;
+  padding-top: 50px;
+}
+.site-logo {
+  margin-top: 50px;
+  height: 110px;
+  width: 110px;
+}
+.navname {
+  margin-left: 50px;
+  margin-top: 10px;
+  align-content: center;
+  font-family: "Syncopate", sans-serif;
+  font-size: 7px;
+  line-height: 2px;
+  color: white;
+  letter-spacing: 20px;
+}
+h2 {
+  font-family: "Work Sans", sans-serif;
+  color: white;
+  letter-spacing: 5px;
+  font-size: 10px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  font-family: "Work Sans", sans-serif;
+  color: rgb(255, 255, 255);
+  letter-spacing: 5px;
+  font-size: 4em;
+  margin: 0;
+  padding: 0;
+}
+.workhistitle {
+  font-family: "Work Sans", sans-serif;
+  color: black;
+  font-size: 40px;
+}
+.skillslist {
+  height: 500px;
+}
+.cardrow {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+col-1 {
+  background-image: url(../images/astronot_copy.png);
+  background-size: cover;
+  width: 33%;
+  border: 1px solid black;
+  /* position: relative; */
+}
+col-2 {
+  background-image: url(../images/Prism.png);
+  background-size: cover;
+  width: 33%;
+  border: 1px solid black;
+}
+col-3 {
+  background-image: url(../images/433.PNG);
+  background-size: cover;
+  width: 33%;
+  border: 1px solid black;
+
+  /* position: relative; */
+}
+
+.linkbutt {
+  background-color: rgba(139, 139, 139, 0.603);
+  bottom: 40px;
+  /* font-family: "jura", sans-serif; */
+  /* font-family: "Syncopate", sans-serif; */
+
+  font-family: "Work Sans", sans-serif;
+  font-size: 50px;
+  letter-spacing: 10px;
+  height: 120px;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 90%;
+}
+
+#portdesc {
+  font-family: "Work Sans", sans-serif;
+
+  font-size: 40px;
+  color: black;
+}

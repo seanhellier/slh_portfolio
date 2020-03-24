@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html id="top">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./assets/javascript/portfolio.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/stylesheet"
+      href="./assets/css/reset.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Syncopate&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body style="background-color: black;">
+    <!-- navbar -->
+    <nav class="navbar sticky-top">
+      <a class="navbar-brand" id="name" href="#top">SEAN LEIF HELLIER</a>
+      <div id="navtags">
+        <a href="#section2" id="navanch">ABOUT</a>
+        <a href="#section3" id="navanch">EXPERIENCE</a>
+        <a href="#section4" id="navanch">SKILLS</a>
+        <a href="#section5" id="navanch">PORTFOLIO</a>
+        <a href="#section6" id="navanch">CONTACT</a>
+      </div>
+    </nav>
+    <!-- Landing area -->
+    <div class="container-fluid main" id="section1">
+      <!-- <video
+        id="landingvid"
+        autoplay
+        src="./galleries/timelapses/timelapse_videos copy/"
+      > --><!-- </video> -->
+      <div
+        class="jumbotron"
+        id="jumbo1"
+        style="background-image: url(galleries/art_gallery/artgall/red_record_lgpng.png); background-position: right;"
+      >
+        <h1 class="display-4">Hello, I am Sean Leif Hellier,</h1>
+        <p class="lead">
+          This is a simple hero unit, a simple jumbotron-style component for
+          calling extra attention to featured content or information.
+        </p>
+        <hr class="my-4" />
+        <p>
+          It uses utility classes for typography and spacing to space content
+          out within the larger container.
+        </p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      </div>
+      <!-- end of the landing zone
+       -->
+    </div>
+    <!-- About me -->
+    <div class="main" id="section2">
+      <h2>about</h2>
+    </div>
+    <!-- Work experience -->
+    <div class="main" id="section3">
+      <h2>experience</h2>
+      <!-- <a href="#section1">Click Me to Smooth Scroll to Section 1 Above</a> -->
+    </div>
+    <!-- Skills -->
+    <div class="main" id="section4">
+      <h2>skills</h2>
+      <!-- <a href="#section3">Click Me to Smooth Scroll to Section 1 Above</a> -->
+    </div>
+    <!-- Portfolio -->
+    <div class="main" id="section5">
+      <div class="row row-cols-1 row-cols-md-2">
+        <!-- Artwork gallery card -->
+        <div class="col mb-4">
+          <div class="card">
+            <img
+              src="./galleries/art_gallery/artgall/astronot.png"
+              class="card-img-top"
+              alt="A gallery of Daniel Mayer's recent artwork"
+            />
+            <div class="card-body">
+              <a id="navanch" href="./galleries/art_gallery/artwork.html">
+                <h5 class="card-title">ARTWORK</h5></a
+              >
+              <p class="card-text">
+                A gallery of my recent works.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- coding gallery card -->
+        <div class="col mb-4">
+          <div class="card">
+            <img
+              src="./galleries/coding gallery/codingall1/PRISM.png"
+              class="card-img-top"
+              alt="Daniel Mayer's gallery of coding projects"
+            />
+            <div class="card-body">
+              <a id="navanch" href="./galleries/design gallery/landscape.html">
+                <h5 class="card-title">CODING</h5></a
+              >
+              <p class="card-text">
+                My portfolio of various coding projects.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- design gallery card -->
+        <div class="col mb-4">
+          <div class="card">
+            <img
+              src="./galleries/design gallery/landscape_image1/balducci-residence.PNG"
+              class="card-img-top"
+              alt="A gallery of Daniel Mayer's Landscape Design work"
+            />
+            <div class="card-body">
+              <a id="navanch" href="./galleries/design gallery/landscape.html">
+                <h5 class="card-title">DESIGN</h5></a
+              >
+              <p class="card-text">
+                A gallery of my Landscape Design work.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Timelapse video gallery card  -->
+        <div class="col mb-4">
+          <div class="card">
+            <img
+              src="./galleries/art_gallery/artgall/bickle.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <a id="navanch" href=""> <h5 class="card-title">TIMELAPSE</h5></a>
+              <p class="card-text">
+                A video timelapse gallery of my digital artwork
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="main" id="section6">
+      <h2>contact</h2>
+      <!-- <a href="#section1">Click Me to Smooth Scroll to Section 1 Above</a> -->
+    </div>
+    <!-- Bootstrap js links -->
+    <!-- <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
