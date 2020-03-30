@@ -15,20 +15,28 @@ body {
     align-items: center;
 }
 
-.navbar {
+.navbar-wrapper {
+    width: 100%;
     position: fixed;
     top: 0;
-    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    width: 80%;
 }
 
 .scrolling-wrapper {
-    margin: 0px 50px;
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
+    overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
     scroll-behavior: smooth;
-
+    width: 80%;
+    height: 600px;
     /* -webkit-scrollbar {
         display: none; */
 
@@ -59,13 +67,22 @@ body {
     text-align: center;
 }
 
-/* 
-.scrolling-wrapper {
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
+#portfolioimage {
+    width: 40%;
+    Height: auto;
+    /* width: 90px;
+    height: 90px; */
+    margin: auto;
+    display: block;
+}
 
-    .card {
-        display: inline-block;
-    }
-} */
+.portfoliocard {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.overflowY {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 300;
+}
