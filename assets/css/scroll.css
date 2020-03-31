@@ -40,7 +40,6 @@ body {
     min-height: 150px;
     max-width: auto;
     min-width: auto;
-
     object-fit: cover;
 } */
 
@@ -66,6 +65,18 @@ body {
     width: 100%;
     background-color: #ffae01;
 }
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+
+}
+
+/* .col {
+    padding-right: 0;
+    padding-left: 0;
+} */
+
 
 .panel-blue {
     border: 1px solid black;
