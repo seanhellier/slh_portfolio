@@ -25,23 +25,18 @@ body {
     width: 100%;
     position: fixed;
     top: 0;
-    z-index: 1;
+    z-index: 1000;
     display: flex;
     justify-content: center;
 }
 
 .navbar {
-    margin-top: 20px;
+    margin-top: 30px;
     width: 80%;
+    background-color: "blue";
+    z-index: 1000;
 }
 
-/* .landingpic {
-    max-height: 200px;
-    min-height: 150px;
-    max-width: auto;
-    min-width: auto;
-    object-fit: cover;
-} */
 
 
 .scrolling-wrapper {
@@ -55,6 +50,7 @@ body {
     scroll-behavior: smooth;
     width: 80%;
     height: 500px;
+    z-index: 500;
     /* -webkit-scrollbar {
         display: none; */
 
@@ -85,6 +81,19 @@ body {
     justify-content: center;
     align-content: center;
 }
+
+
+#landing-image-col {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+
+
+
 
 #skillscontainer {
     flex-direction: column;
