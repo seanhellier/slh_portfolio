@@ -21,26 +21,39 @@ body {
     align-items: center;
 }
 
+.bannerfont {
+    font-family: "Open Sans", sans-serif;
+}
+
 .navbar-wrapper {
     width: 100%;
     position: fixed;
     top: 0;
-    z-index: 1000;
+    z-index: 1;
     display: flex;
     justify-content: center;
+    height: 75px;
 }
 
 .navbar {
     margin-top: 30px;
-    width: 80%;
-    background-color: "blue";
-    z-index: 1000;
+    width: 65%;
 }
 
+.navbar-custom {
+    background-color: #ffae01;
+}
 
+.navbar-custom .navbar-nav .nav-link {
+    color: azure;
+}
+
+#navbrand {
+    color: black;
+}
 
 .scrolling-wrapper {
-    margin-top: 120px;
+    margin-top: 15px;
     margin-bottom: 100px;
     display: flex;
     flex-wrap: nowrap;
@@ -48,12 +61,10 @@ body {
     overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
     scroll-behavior: smooth;
-    width: 80%;
+    width: 65%;
     height: 500px;
-    z-index: 500;
     /* -webkit-scrollbar {
         display: none; */
-
 }
 
 .card {
@@ -68,10 +79,9 @@ body {
 
 }
 
-/* .col {
-    padding-right: 0;
-    padding-left: 0;
-} */
+#landingtext {
+    padding: 40px;
+}
 
 
 .panel-blue {
