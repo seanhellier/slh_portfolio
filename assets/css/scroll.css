@@ -15,7 +15,7 @@ body {
 }
 
 body {
-    background-color: #f2e2c8;
+    background-color: rgb(236, 236, 236);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,6 +23,18 @@ body {
 
 .bannerfont {
     font-family: "Open Sans", sans-serif;
+}
+
+.smallbannerfont {
+    font-family: "Open Sans", sans-serif;
+    text-size-adjust: 16px;
+    line-height: 60%;
+    color: azure;
+}
+
+br {
+    display: block;
+    margin: 10px 0;
 }
 
 .navbar-wrapper {
@@ -48,9 +60,17 @@ body {
     color: azure;
 }
 
-#navbrand {
+
+.navbrand {
     color: black;
+    font-weight: 600;
+
 }
+
+/* .navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255, 255, 255, .8);
+} */
 
 .scrolling-wrapper {
     margin-top: 15px;
@@ -80,9 +100,20 @@ body {
 }
 
 #landingtext {
-    padding: 40px;
+    padding: 60px;
 }
 
+#landingparagraph {
+    font-size: 13px;
+}
+
+#portfoliocode {
+    font-size: 13px;
+}
+
+#portfoliobody {
+    font-size: 14px;
+}
 
 .panel-blue {
     border: 1px solid black;
