@@ -30,11 +30,7 @@ body {
     text-size-adjust: 16px;
     line-height: 60%;
     color: azure;
-}
-
-br {
-    display: block;
-    margin: 10px 0;
+    margin-top: 5px;
 }
 
 .navbar-wrapper {
@@ -49,7 +45,7 @@ br {
 
 .navbar {
     margin-top: 30px;
-    width: 65%;
+    width: 68%;
 }
 
 .navbar-custom {
@@ -60,20 +56,14 @@ br {
     color: azure;
 }
 
-
 .navbrand {
     color: black;
     font-weight: 600;
 
 }
 
-/* .navbar-custom .navbar-brand,
-.navbar-custom .navbar-text {
-    color: rgba(255, 255, 255, .8);
-} */
-
 .scrolling-wrapper {
-    margin-top: 15px;
+    margin-top: 0px;
     margin-bottom: 100px;
     display: flex;
     flex-wrap: nowrap;
@@ -81,7 +71,7 @@ br {
     overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
     scroll-behavior: smooth;
-    width: 65%;
+    width: 68%;
     height: 500px;
     /* -webkit-scrollbar {
         display: none; */
@@ -96,7 +86,6 @@ br {
 .no-gutters {
     margin-right: 0;
     margin-left: 0;
-
 }
 
 #landingtext {
@@ -105,10 +94,38 @@ br {
 
 #landingparagraph {
     font-size: 13px;
+    margin-top: 35px;
+}
+
+.portfoliocard {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.portfolioimage {
+    width: 50%;
+    Height: auto;
+    border-radius: 25px;
+    margin: auto;
+    display: block;
+}
+
+.portfolioname {
+    font-size: 18px;
+    font-weight: 600;
 }
 
 #portfoliocode {
-    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    text-size-adjust: 13px;
+    line-height: 0%;
+    color: rgb(58, 61, 61);
+    /* margin-top: 10px; */
+
+}
+
+#portfolioparagraph {
+    padding: 25px;
 }
 
 #portfoliobody {
@@ -133,9 +150,6 @@ br {
     width: 100%;
 }
 
-
-
-
 #skillscontainer {
     flex-direction: column;
 }
@@ -146,20 +160,7 @@ br {
 
 #skillscolumn {
     text-align: center;
-}
-
-#portfolioimage {
-    width: 40%;
-    Height: auto;
-    /* width: 90px;
-    height: 90px; */
-    margin: auto;
-    display: block;
-}
-
-.portfoliocard {
-    flex: 0 0 auto;
-    width: 100%;
+    margin-top: 25px;
 }
 
 .overflowY {
