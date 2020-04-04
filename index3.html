@@ -280,12 +280,13 @@
             </div>
         </div>
         <!-- end of row 2 -->
+        <!-- end of portfolio -->
+        <!-- begining of skills section -->
+
         <div class="card">
             <h2 id="skills">Skills</h2>
             <div class="container-fluid" id="skillscontainer">
                 skillscontainer
-                <!-- end row 1 -->
-
                 <div class="row" id="skillsrow">
                     <div class="col-md-2" id="skillscolumn">
                         <div class="panel panel-blue">
@@ -352,13 +353,12 @@
                         </div>
                     </div>
                 </div>
-                <!-- end row 2 -->
+                <!-- end row 1 -->
                 <div class="row" id="skillsrow">
                     <div class="col-md-2" id="skillscolumn">
                         <div class="panel panel-blue">
                             <div class="skillimage">
-                                <img src="assets/content/logos/sequalize.png" alt="squalize-logo"
-                                    class="logos rounded" />
+                                <img src="assets/content/logos/node.png" alt="node-logo" class="logos rounded" />
                             </div>
                             <!-- <p>
                                 Sequalize
@@ -368,7 +368,7 @@
                     <div class="col-md-2" id="skillscolumn">
                         <div class="panel panel-blue">
                             <div class="skillimage">
-                                <img src="assets/content/logos/node.png" alt="node-logo" class="logos rounded" />
+                                <img src="assets/content/logos/mysql.png" alt="mysql-logo" class="logos rounded" />
                             </div>
                             <!-- <p>
                                 Kepler GL
@@ -378,35 +378,50 @@
                     <div class="col-md-2" id="skillscolumn">
                         <div class="panel panel-blue">
                             <div class="skillimage">
-                                <img src="assets/content/logos/mapbox.png " alt="mapbox-logo" class="logos rounded" />
+                                <img src="assets/content/logos/mongodb.png " alt="mongodb-logo" class="logos rounded" />
                             </div>
                         </div>
                     </div>
                     <div class="col-md-2" id="skillscolumn">
                         <div class="panel panel-blue">
                             <div class="skillimage">
-                                <img src="assets/content/logos/mapbox.png " alt="mapbox-logo" class="logos rounded" />
+                                <img src="assets/content/logos/react.png " alt="react-logo" class="logos rounded" />
                             </div>
                         </div>
                     </div>
                     <div class="col-md-2" id="skillscolumn">
                         <div class="panel panel-blue">
                             <div class="skillimage">
-                                <img src="assets/content/logos/mapbox.png " alt="mapbox-logo" class="logos rounded" />
+                                <img src="assets/content/logos/sequalize.png " alt="sequalize-logo"
+                                    class="logos rounded" />
                             </div>
                         </div>
                     </div>
                     <div class="col-md-2" id="skillscolumn">
                         <div class="panel panel-blue">
                             <div class="skillimage">
-                                <img src="assets/content/logos/mapbox.png " alt="mapbox-logo" class="logos rounded" />
+                                <img src="assets/content/logos/kepler.png " alt="kepler-logo" class="logos rounded" />
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- end of row 2 -->
-
+                <div class="row" id="skillsrow">
+                    <div class="col-md-2" id="skillscolumn">
+                        <div class="panel panel-blue">
+                            <div class="skillimage">
+                                <img src="assets/content/logos/mapbox.png" alt="mapbox-logo" class="logos rounded" />
+                            </div>
+                            <!-- <p>
+                                HTML 5
+                            </p> -->
+                        </div>
+                    </div>
+                </div>
+                <!-- end of row 2 -->
             </div>
+            <!-- end of skills section -->
+            <!-- beginning of contact sectiom -->
         </div>
         <div class="card">
             <h2 id="contact">Contact</h2>
@@ -525,27 +540,6 @@
                     </div>
                     <div class="col-sm-6">
                         <div id="map"></div>
-                        <script>
-                            // Initialize and add the map
-                            function initMap() {
-                                // The location of Uluru
-                                var uluru = {
-                                    lat: 40.7128,
-                                    lng: -131.036
-                                };
-                                // The map, centered at Uluru
-                                var map = new google.maps.Map(
-                                    document.getElementById('map'), {
-                                        zoom: 4,
-                                        center: uluru
-                                    });
-                                // The marker, positioned at Uluru
-                                var marker = new google.maps.Marker({
-                                    position: uluru,
-                                    map: map
-                                });
-                            }
-                        </script>
                     </div>
                 </div>
             </div>
@@ -555,7 +549,7 @@
         </div>
     </div>
 
-    <!-- google API -->
+
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -570,10 +564,11 @@
 
     <script async defer src="./assets/javascript/menu.js">
     </script>
+    <!-- google Map -->
+    <script src="./assets/javascript/map.js"></script>
     <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAHBpna662s8L1EqRUcrD5uJ9YmXHzZDA&callback=initMap">
     </script>
-
 </body>
 
 </html>
