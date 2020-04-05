@@ -10,7 +10,8 @@
          document.getElementById('map'), {
              zoom: 4,
              center: nyc,
-             mapTypeId: 'satellite'
+             mapTypeId: 'satellite',
+             disableDefaultUI: true
          });
      // The marker, positioned at Uluru
      var marker = new google.maps.Marker({

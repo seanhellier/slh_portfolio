@@ -63,8 +63,9 @@ body {
 }
 
 .scrolling-wrapper {
-    margin-top: 0px;
-    margin-bottom: 100px;
+    position: absolute;
+    top: 0;
+    margin-top: 105px;
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
@@ -142,7 +143,7 @@ body {
 
 
 #landing-image-col {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
