@@ -33,6 +33,15 @@ body {
     margin-top: 5px;
 }
 
+.burger {
+    color: #000;
+}
+
+.custom-toggler {
+    border-color: rgb(0, 0, 0);
+    color: black;
+}
+
 .navbar-wrapper {
     width: 100%;
     position: fixed;
@@ -48,6 +57,14 @@ body {
     width: 68%;
 }
 
+.navbar-nav li {
+    transition: 1s;
+}
+
+.navbar-nav li:hover {
+    background-color: black;
+}
+
 .navbar-custom {
     background-color: #ffae01;
 }
@@ -56,16 +73,25 @@ body {
     color: azure;
 }
 
+/*collapse*/
+.navbar-collapse .nav li {
+    background-color: #ffae01;
+}
+
 .navbrand {
     color: black;
     font-weight: 600;
 
 }
 
+#Form-email5 {
+    color: black;
+}
+
 .scrolling-wrapper {
     position: absolute;
     top: 0;
-    margin-top: 105px;
+    margin-top: 85px;
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
