@@ -2,8 +2,6 @@
 /* orange: #ffae01 */
 /* background #f2e2c8 */
 
-
-
 html,
 body {
     margin: 0;
@@ -43,7 +41,6 @@ body {
 }
 
 .navbar-wrapper {
-    width: 100%;
     position: fixed;
     top: 0;
     z-index: 1;
@@ -55,6 +52,8 @@ body {
 .navbar {
     margin-top: 30px;
     width: 68%;
+    padding: 0;
+    position: relative;
 }
 
 .navbar-nav li {
@@ -73,15 +72,33 @@ body {
     color: azure;
 }
 
+.navbar-collapse {
+    width: 100%;
+    position: absolute;
+    top: 45px;
+}
+
+.navbar-collapse ul.navbar-nav li.nav-item a {
+    padding-left: 18px;
+}
+
 /*collapse*/
 .navbar-collapse .nav li {
     background-color: #ffae01;
 }
 
 .navbrand {
+    padding-left: 18px;
     color: black;
     font-weight: 600;
+    position: absolute;
+}
 
+.navbar-toggler {
+    position: absolute;
+    right: 0;
+    padding: 0;
+    padding-right: 18px;
 }
 
 #Form-email5 {
@@ -108,6 +125,7 @@ body {
     flex: 0 0 auto;
     width: 100%;
     background-color: #ffae01;
+    border-radius: 0;
 }
 
 .no-gutters {
@@ -160,7 +178,7 @@ body {
 }
 
 .panel-blue {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -177,12 +195,21 @@ body {
     width: 100%;
 }
 
+.logos {
+    width: auto;
+    height: 65px;
+    margin: 20px;
+}
+
 #skillscontainer {
     flex-direction: column;
 }
 
 #skillsrow {
     margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 #skillscolumn {
@@ -194,4 +221,28 @@ body {
     overflow-y: scroll;
     overflow-x: hidden;
     max-height: 300;
+}
+
+@media (min-width: 1200px) {
+    .main-image-container {
+        display: default;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 769px) {
+    .main-image-container {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 577px) {
+    .main-image-container {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .main-image-container {
+        display: none;
+    }
 }
