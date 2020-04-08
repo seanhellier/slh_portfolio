@@ -5,6 +5,14 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- jQuery -->
+    <script type="text/javascript" src="./assets/javascript/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="./assets/javascript/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="./assets/javascript/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="./assets/javascript/mdb.min.js"></script>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -18,6 +26,7 @@
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <!-- Material Design Bootstrap -->
     <link rel="stylesheet" href="./assets/css/mdb.min.css">
+    <link rel="stylesheet" href="./assets/css/navbar.css">
 
 
     <!-- Open Sans San Serif font -->
@@ -32,10 +41,12 @@
 <body>
     <div class="navbar-wrapper w-100">
         <nav class="navbar navbar-expand-md navbar-custom">
-            <a href="#home" class="navbrand">Sean Leif Hellier | </a>
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="burger"><i class="fas fa-bars fa-1x"></i></span>
-            </button>
+            <div class="title-button-wrapper">
+                <a href="#home" class="navbrand">Sean Leif Hellier | </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span style="color:#000"><i class="fas fa-bars fa-1x"></i></span>
+                </button>
+            </div>
             <div id="navbarCollapse" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li class="nav-item">
@@ -107,8 +118,8 @@
         </div>
         <div class="card portfoliocard" id="portfolio">
             <h2 id="portfolio">Portfolio</h2>
-            <div class="overflowY" id="skillscontainer">
-                <div class="row" id="skillsrow">
+            <div class="overflowY">
+                <div class="row" id="portfoliorow">
                     <div class="col-md-6" id="skillscolumn">
                         <div class="panel-blue">
                             <div class="image portfolioimage">
@@ -295,22 +306,20 @@
 
         <div class="card">
             <h2 id="skills">Skills</h2>
-            <div class="container-fluid" id="skillscontainer">
-                <div class="row" id="skillsrow">
-                    <img src="assets/content/logos/HTML5_Badge.png" alt="html5-logo" class="logos" />
-                    <img src="assets/content/logos/css3.png" alt="css3-logo" class="logos" />
-                    <img src="assets/content/logos/javascript.png" alt="javascript-logo" class="logos" />
-                    <img src="assets/content/logos/jquery.png" alt="jquery-logo" class="logos" />
-                    <img src="assets/content/logos/bootstrap.png" alt="bootstrap-logo" class="logos" />
-                    <img src="assets/content/logos/firebase.png" alt="firebase-logo" class="logos" />
-                    <img src="assets/content/logos/node.png" alt="node-logo" class="logos" />
-                    <img src="assets/content/logos/mysql.png" alt="mysql-logo" class="logos" />
-                    <img src="assets/content/logos/mongodb.png " alt="mongodb-logo" class="logos" />
-                    <img src="assets/content/logos/react.png " alt="react-logo" class="logos" />
-                    <img src="assets/content/logos/sequalize.png " alt="sequalize-logo" class="logos" />
-                    <img src="assets/content/logos/kepler.png " alt="kepler-logo" class="logos" />
-                    <img src="assets/content/logos/mapbox.png" alt="mapbox-logo" class="logos" />
-                </div>
+            <div class="skills-container">
+                <img src="assets/content/logos/HTML5_Badge.png" alt="html5-logo" class="logos" />
+                <img src="assets/content/logos/css3.png" alt="css3-logo" class="logos" />
+                <img src="assets/content/logos/javascript.png" alt="javascript-logo" class="logos" />
+                <img src="assets/content/logos/jquery.png" alt="jquery-logo" class="logos" />
+                <img src="assets/content/logos/bootstrap.png" alt="bootstrap-logo" class="logos" />
+                <img src="assets/content/logos/firebase.png" alt="firebase-logo" class="logos" />
+                <img src="assets/content/logos/node.png" alt="node-logo" class="logos" />
+                <img src="assets/content/logos/mysql.png" alt="mysql-logo" class="logos" />
+                <img src="assets/content/logos/mongodb.png " alt="mongodb-logo" class="logos" />
+                <img src="assets/content/logos/react.png " alt="react-logo" class="logos" />
+                <img src="assets/content/logos/sequalize.png " alt="sequalize-logo" class="logos" />
+                <img src="assets/content/logos/kepler.png " alt="kepler-logo" class="logos" />
+                <img src="assets/content/logos/mapbox.png" alt="mapbox-logo" class="logos" />
             </div>
             <!-- end of skills section -->
             <!-- beginning of contact sectiom -->
@@ -319,11 +328,10 @@
             <h2 id="contact">Contact</h2>
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                         <div class="container">
                             <!-- Form Start -->
                             <section class="form-dark mb-5">
-
                                 <!--Form without header-->
                                 <div class="card card-image"
                                     style="background-image: url('https://mdbootstrap.com/img/Photos/Others/pricing-table%20(7).jpg');">
@@ -377,14 +385,11 @@
                             <!-- Form Ended -->
                         </div>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-xs-0 col-sm-0 col-md-0 col-lg-6">
                         <div id="map"></div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="card">
-            <h2 id="download">Download CV</h2>
         </div>
     </div>
 
@@ -401,22 +406,17 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script> -->
 
+
     <script async defer src="./assets/javascript/menu.js">
     </script>
+
+
     <!-- google Map -->
     <script src="./assets/javascript/map.js"></script>
     <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAHBpna662s8L1EqRUcrD5uJ9YmXHzZDA&callback=initMap">
     </script>
 
-    <!-- jQuery -->
-    <script type="text/javascript" src="./assets/javascript/jquery.min.js"></script>
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="./assets/javascript/popper.min.js"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="./assets/javascript/bootstrap.min.js"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="./assets/javascript/mdb.min.js"></script>
 
 </body>
 

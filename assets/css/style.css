@@ -31,76 +31,6 @@ body {
     margin-top: 5px;
 }
 
-.burger {
-    color: #000;
-}
-
-.custom-toggler {
-    border-color: rgb(0, 0, 0);
-    color: black;
-}
-
-.navbar-wrapper {
-    position: fixed;
-    top: 0;
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    height: 70px;
-}
-
-.navbar {
-    margin-top: 30px;
-    width: 68%;
-    padding: 0;
-    position: relative;
-}
-
-.navbar-nav li {
-    transition: 1s;
-}
-
-.navbar-nav li:hover {
-    background-color: black;
-}
-
-.navbar-custom {
-    background-color: #ffae01;
-}
-
-.navbar-custom .navbar-nav .nav-link {
-    color: azure;
-}
-
-.navbar-collapse {
-    width: 100%;
-    position: absolute;
-    top: 45px;
-}
-
-.navbar-collapse ul.navbar-nav li.nav-item a {
-    padding-left: 18px;
-}
-
-/*collapse*/
-.navbar-collapse .nav li {
-    background-color: #ffae01;
-}
-
-.navbrand {
-    padding-left: 18px;
-    color: black;
-    font-weight: 600;
-    position: absolute;
-}
-
-.navbar-toggler {
-    position: absolute;
-    right: 0;
-    padding: 0;
-    padding-right: 18px;
-}
-
 #Form-email5 {
     color: black;
 }
@@ -119,6 +49,14 @@ body {
     height: 500px;
     /* -webkit-scrollbar {
         display: none; */
+    scroll-snap-type: x mandatory;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
 
 .card {
@@ -126,6 +64,7 @@ body {
     width: 100%;
     background-color: #ffae01;
     border-radius: 0;
+    scroll-snap-align: start;
 }
 
 .no-gutters {
@@ -201,15 +140,11 @@ body {
     margin: 20px;
 }
 
-#skillscontainer {
-    flex-direction: column;
-}
-
-#skillsrow {
+#portfoliorow {
     margin-top: 20px;
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    flex-wrap: column wrap;
 }
 
 #skillscolumn {
@@ -227,10 +162,18 @@ body {
     .main-image-container {
         display: default;
     }
+
+    #map {
+        display: default;
+    }
 }
 
 @media (max-width: 992px) and (min-width: 769px) {
     .main-image-container {
+        display: none;
+    }
+
+    #map {
         display: none;
     }
 }
@@ -239,10 +182,18 @@ body {
     .main-image-container {
         display: none;
     }
+
+    #map {
+        display: none;
+    }
 }
 
 @media (max-width: 576px) {
     .main-image-container {
+        display: none;
+    }
+
+    #map {
         display: none;
     }
 }

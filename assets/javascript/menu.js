@@ -1,13 +1,16 @@
-$('.navbar-nav>li>a').on('click', function () {
+//default
+$('.nav-link').on('click', function () {
     if (!this.classList.contains("dropdown-toggle")) {
         $('.navbar-collapse').collapse('hide');
     }
 });
 
-$('.navbar-nav>li>div>a').on('click', function () {
+//dropdown
+$('.dropdown-menu>a').on('click', function () {
     $('.navbar-collapse').collapse('hide');
 });
 
-$('.navbar>a').on('click', function () {
+//logo-name
+$('.navbrand').on('click', function () {
     $('.navbar-collapse').collapse('hide');
 });
