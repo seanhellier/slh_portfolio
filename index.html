@@ -5,6 +5,14 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- jQuery -->
+    <script type="text/javascript" src="./assets/javascript/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="./assets/javascript/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="./assets/javascript/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="./assets/javascript/mdb.min.js"></script>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -18,6 +26,7 @@
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <!-- Material Design Bootstrap -->
     <link rel="stylesheet" href="./assets/css/mdb.min.css">
+    <link rel="stylesheet" href="./assets/css/navbar.css">
 
 
     <!-- Open Sans San Serif font -->
@@ -30,13 +39,14 @@
 </head>
 
 <body>
-
-    <div class="navbar-wrapper">
+    <div class="navbar-wrapper w-100">
         <nav class="navbar navbar-expand-md navbar-custom">
-            <a href="#home" class="navbrand">Sean Leif Hellier | </a>
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <div class="title-button-wrapper">
+                <a href="#home" class="navbrand">Sean Leif Hellier | </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span style="color:#000"><i class="fas fa-bars fa-1x"></i></span>
+                </button>
+            </div>
             <div id="navbarCollapse" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li class="nav-item">
@@ -65,12 +75,12 @@
         <div class="card" id="home">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 p-0">
+                    <div class="col-xs-0 col-sm-0 col-md-0 col-lg-6 p-0 main-image-container">
                         <div id="landing-image-col">
                             <img src="assets/content/light-tower.png" alt="light-tower" class="landingpic" />
                         </div>
                     </div>
-                    <div class="col-md-6" id="landingtext">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6" id="landingtext">
                         <div class="panel panel-purple">
                             <p></p>
                             <h1 class="bannerfont">
@@ -107,10 +117,11 @@
             </div>
         </div>
         <div class="card portfoliocard" id="portfolio">
-            <div class="overflowY" id="skillscontainer">
-                <div class="row" id="skillsrow">
+            <h2 id="portfolio">Portfolio</h2>
+            <div class="overflowY">
+                <div class="row" id="portfoliorow">
                     <div class="col-md-6" id="skillscolumn">
-                        <div class="panel panel-blue">
+                        <div class="panel-blue">
                             <div class="image portfolioimage">
                                 <img src="assets/content/portfolio/denixone.png" width="100%" alt="denizone-logo"
                                     class="logos rounded" />
@@ -295,140 +306,20 @@
 
         <div class="card">
             <h2 id="skills">Skills</h2>
-            <div class="container-fluid" id="skillscontainer">
-                skillscontainer
-                <div class="row" id="skillsrow">
-                    <div class="col-md-2" id="skillscolumn">
-                        <div class="panel panel-blue">
-                            <div class="skillimage">
-                                <img src="assets/content/logos/HTML5_Badge.png" alt="html5-logo"
-                                    class="logos rounded" />
-                            </div>
-                            <!-- <p>
-                                HTML 5
-                            </p> -->
-                        </div>
-                    </div>
-                    <div class="col-md-2" id="skillscolumn">
-                        <div class="panel panel-blue">
-                            <div class="skillimage">
-                                <img src="assets/content/logos/css3.png" alt="css3-logo" class="logos rounded" />
-                            </div>
-                            <!-- <p>
-                                Node JS
-                            </p> -->
-                        </div>
-                    </div>
-                    <div class="col-md-2" id="skillscolumn">
-                        <div class="panel panel-blue">
-                            <div class="skillimage">
-                                <img src="assets/content/logos/javascript.png" alt="javascript-logo"
-                                    class="logos rounded" />
-                            </div>
-                            <!-- <p>
-                                mySQL
-                            </p> -->
-                        </div>
-                    </div>
-                    <div class="col-md-2" id="skillscolumn">
-                        <div class="panel panel-blue">
-                            <div class="skillimage">
-                                <img src="assets/content/logos/jquery.png" alt="jquery-logo" class="logos rounded" />
-                            </div>
-                            <!-- <p>
-                                mongoDB
-                            </p> -->
-                        </div>
-                    </div>
-                    <div class="col-md-2" id="skillscolumn">
-                        <div class="panel panel-blue">
-                            <div class="skillimage">
-                                <img src="assets/content/logos/bootstrap.png" alt="bootstrap-logo"
-                                    class="logos rounded" />
-                            </div>
-                            <!-- <p>
-                                Express
-                            </p> -->
-                        </div>
-                    </div>
-                    <div class="col-md-2" id="skillscolumn">
-                        <div class="panel panel-blue">
-                            <div class="skillimage">
-                                <img src="assets/content/logos/firebase.png" alt="firebase-logo"
-                                    class="logos rounded" />
-                            </div>
-                            <!-- <p>
-                                React JS
-                            </p> -->
-                        </div>
-                    </div>
-                </div>
-                <!-- end row 1 -->
-                <div class="row" id="skillsrow">
-                    <div class="col-md-2" id="skillscolumn">
-                        <div class="panel panel-blue">
-                            <div class="skillimage">
-                                <img src="assets/content/logos/node.png" alt="node-logo" class="logos rounded" />
-                            </div>
-                            <!-- <p>
-                                Sequalize
-                            </p> -->
-                        </div>
-                    </div>
-                    <div class="col-md-2" id="skillscolumn">
-                        <div class="panel panel-blue">
-                            <div class="skillimage">
-                                <img src="assets/content/logos/mysql.png" alt="mysql-logo" class="logos rounded" />
-                            </div>
-                            <!-- <p>
-                                Kepler GL
-                            </p> -->
-                        </div>
-                    </div>
-                    <div class="col-md-2" id="skillscolumn">
-                        <div class="panel panel-blue">
-                            <div class="skillimage">
-                                <img src="assets/content/logos/mongodb.png " alt="mongodb-logo" class="logos rounded" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-2" id="skillscolumn">
-                        <div class="panel panel-blue">
-                            <div class="skillimage">
-                                <img src="assets/content/logos/react.png " alt="react-logo" class="logos rounded" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-2" id="skillscolumn">
-                        <div class="panel panel-blue">
-                            <div class="skillimage">
-                                <img src="assets/content/logos/sequalize.png " alt="sequalize-logo"
-                                    class="logos rounded" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-2" id="skillscolumn">
-                        <div class="panel panel-blue">
-                            <div class="skillimage">
-                                <img src="assets/content/logos/kepler.png " alt="kepler-logo" class="logos rounded" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end of row 2 -->
-                <div class="row" id="skillsrow">
-                    <div class="col-md-2" id="skillscolumn">
-                        <div class="panel panel-blue">
-                            <div class="skillimage">
-                                <img src="assets/content/logos/mapbox.png" alt="mapbox-logo" class="logos rounded" />
-                            </div>
-                            <!-- <p>
-                                HTML 5
-                            </p> -->
-                        </div>
-                    </div>
-                </div>
-                <!-- end of row 2 -->
+            <div class="skills-container">
+                <img src="assets/content/logos/HTML5_Badge.png" alt="html5-logo" class="logos" />
+                <img src="assets/content/logos/css3.png" alt="css3-logo" class="logos" />
+                <img src="assets/content/logos/javascript.png" alt="javascript-logo" class="logos" />
+                <img src="assets/content/logos/jquery.png" alt="jquery-logo" class="logos" />
+                <img src="assets/content/logos/bootstrap.png" alt="bootstrap-logo" class="logos" />
+                <img src="assets/content/logos/firebase.png" alt="firebase-logo" class="logos" />
+                <img src="assets/content/logos/node.png" alt="node-logo" class="logos" />
+                <img src="assets/content/logos/mysql.png" alt="mysql-logo" class="logos" />
+                <img src="assets/content/logos/mongodb.png " alt="mongodb-logo" class="logos" />
+                <img src="assets/content/logos/react.png " alt="react-logo" class="logos" />
+                <img src="assets/content/logos/sequalize.png " alt="sequalize-logo" class="logos" />
+                <img src="assets/content/logos/kepler.png " alt="kepler-logo" class="logos" />
+                <img src="assets/content/logos/mapbox.png" alt="mapbox-logo" class="logos" />
             </div>
             <!-- end of skills section -->
             <!-- beginning of contact sectiom -->
@@ -437,114 +328,68 @@
             <h2 id="contact">Contact</h2>
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                         <div class="container">
                             <!-- Form Start -->
-                            <div class="container form-top">
-                                <div class="row">
-                                    <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
-                                        <div class="panel panel-danger">
-                                            <div class="panel-body">
+                            <section class="form-dark mb-5">
+                                <!--Form without header-->
+                                <div class="card card-image"
+                                    style="background-image: url('https://mdbootstrap.com/img/Photos/Others/pricing-table%20(7).jpg');">
+                                    <div class="text-white rgba-stylish-strong py-5 px-5 z-depth-4">
 
+                                        <!--Header-->
+                                        <!-- <div class="text-center">
+                                            <h3 class="white-text mb-5 mt-4 font-weight-bold text-uppercase">
+                                                <strong>Contact</strong> <a class="green-text font-weight-bold"><strong>
+                                                        Us</strong></a></h3>
+                                        </div> -->
 
-                                                <!--Section: Live preview-->
-                                                <secti<!--Section: Live preview-->
-                                                    <section class="form-dark">
-
-                                                        <!--Form without header-->
-                                                        <div class="card card-image"
-                                                            style="background-image: url('https://mdbootstrap.com/img/Photos/Others/pricing-table7.jpg'); width: 28rem;">
-                                                            <div
-                                                                class="text-white rgba-stylish-strong py-5 px-5 z-depth-4">
-
-                                                                <!--Header-->
-                                                                <!-- <div class="text-center">
-                                                                    <h3 class="white-text mb-5 mt-4 font-weight-bold">
-                                                                        <strong>SIGN</strong> <a
-                                                                            class="green-text font-weight-bold"><strong>
-                                                                                UP</strong></a></h3>
-                                                                </div> -->
-
-                                                                <!--Body-->
-                                                                <div class="md-form">
-                                                                    <input type="text" id="Form-email5"
-                                                                        class="form-control white-text"
-                                                                        placeholder="123-45-678">
-                                                                    <label for="Form-email5">Your Name</label>
-                                                                </div>
-
-                                                                <div class="md-form pb-3">
-                                                                    <input type="password" id="Form-pass5"
-                                                                        class="form-control white-text">
-                                                                    <label for="Form-pass5">Your email address</label>
-                                                                    <!-- <div class="form-check my-4">
-                                                                        <input class="form-check-input" type="checkbox"
-                                                                            value="" id="defaultCheck17">
-                                                                        <label class="form-check-label white-text"
-                                                                            for="defaultCheck17">Accept the<a href="#"
-                                                                                class="green-text font-weight-bold">
-                                                                                Terms and Conditions</a></label>
-                                                                    </div> -->
-                                                                </div>
-
-                                                                <!--Grid row-->
-                                                                <div class="row d-flex align-items-center mb-4">
-
-                                                                    <!--Grid column-->
-                                                                    <div class="text-center mb-3 col-md-12">
-                                                                        <button type="button"
-                                                                            class="btn btn-success btn-block btn-rounded z-depth-1">Sign
-                                                                            in</button>
-                                                                    </div>
-                                                                    <!--Grid column-->
-                                                                </div>
-                                                                <!--Grid row-->
-
-                                                                <!--Grid column-->
-                                                                <!-- <div class="col-md-12">
-                                                                    <p
-                                                                        class="font-small white-text d-flex justify-content-end">
-                                                                        Have an account? <a href="#"
-                                                                            class="green-text ml-1 font-weight-bold">
-                                                                            Log in</a></p>
-                                                                </div> -->
-                                                                <!--Grid column-->
-
-                                                            </div>
-                                                        </div>
-                                                        <!--/Form without header-->
-
-                                                    </section>
-
-
-
-                                                    <div id="error_message"
-                                                        style="width:100%; height:100%; display:none; ">
-                                                        <h4>
-                                                            Error
-                                                        </h4>
-                                                        Sorry there was an error sending your form.
-                                                    </div>
-                                                    <div id="success_message"
-                                                        style="width:100%; height:100%; display:none; ">
-                                                        <h2>Success! Your Message was Sent Successfully.</h2>
-                                                    </div>
-                                            </div>
+                                        <div class="md-form">
+                                            <input type="text" id="form100" class="form-control">
+                                            <label for="form100">Your name</label>
                                         </div>
+
+                                        <div class="md-form">
+                                            <input type="text" id="form101" class="form-control">
+                                            <label for="form101">Your email</label>
+                                        </div>
+
+                                        <div class="md-form">
+                                            <input type="text" id="form102" class="form-control">
+                                            <label for="form102">Subject</label>
+                                        </div>
+
+                                        <div class="md-form">
+                                            <textarea id="form103" class="md-textarea form-control"></textarea>
+                                            <label for="form103">Your message</label>
+                                        </div>
+
+                                        <!--Grid row-->
+                                        <div class="row d-flex align-items-center">
+
+                                            <!--Grid column-->
+                                            <div class="text-center col-md-12 mt-3 mb-2">
+                                                <button type="button"
+                                                    class="btn btn-success btn-block btn-rounded z-depth-1">Send</button>
+                                            </div>
+                                            <!--Grid column-->
+                                        </div>
+                                        <!--Grid row-->
+
                                     </div>
                                 </div>
-                            </div>
+                                <!--/Form without header-->
+
+                            </section>
+                            <!-- Section: form dark -->
                             <!-- Form Ended -->
                         </div>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-xs-0 col-sm-0 col-md-0 col-lg-6">
                         <div id="map"></div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="card">
-            <h2 id="download">Download CV</h2>
         </div>
     </div>
 
@@ -561,22 +406,17 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script> -->
 
+
     <script async defer src="./assets/javascript/menu.js">
     </script>
+
+
     <!-- google Map -->
     <script src="./assets/javascript/map.js"></script>
     <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAHBpna662s8L1EqRUcrD5uJ9YmXHzZDA&callback=initMap">
     </script>
 
-    <!-- jQuery -->
-    <script type="text/javascript" src="./assets/javascript/jquery.min.js"></script>
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="./assets/javascript/popper.min.js"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="./assets/javascript/bootstrap.min.js"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="./assets/javascript/mdb.min.js"></script>
 
 </body>
 
