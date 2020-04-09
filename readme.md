@@ -27,7 +27,7 @@ To deploy this software on a webserver, copy the containing folder to your serve
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/seanhellier/slh_portfolio/blob/master/contributing.md) for details on my code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
@@ -41,8 +41,12 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Contributors
 
-* **Tony Ho** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-* **Daniel Mayer** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Tony Ho** - *Initial work* -
+                                        * [Portfolio](https://ho-tonym.github.io/portfolio/)
+                                        * [Github](https://github.com/ho-tonym)
+* **Daniel Mayer** - *Initial work* -
+                                        * [Portfolio](https://github.com/PurpleBooth)
+                                        * [Github](https://github.com/DanMayer218)
 
 ## License
 

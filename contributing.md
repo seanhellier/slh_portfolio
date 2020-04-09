@@ -23,7 +23,7 @@ size, disability, ethnicity, gender identity and expression, level of experience
 nationality, personal appearance, race, religion, or sexual identity and
 orientation.
 
-### Our Standards
+### Standards of Behavior
 
 Examples of behavior that contributes to creating a positive environment
 include:
@@ -45,7 +45,7 @@ advances
 * Other conduct which could reasonably be considered inappropriate in a
   professional setting
 
-### Our Responsibilities
+### Responsibilities
 
 Project maintainers are responsible for clarifying the standards of acceptable
 behavior and are expected to take appropriate and fair corrective action in
