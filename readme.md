@@ -23,7 +23,7 @@ To deploy this software on a webserver, copy the containing folder to your serve
 * [Bootstrap]   (http://www.getbootstrap.com) - The CSS framework used for scroll and the skin
 * [MDB]         (https://mdbootstrap.com/) - Bootstrap extension used for form design
 * [Javascript]  (https://www.javascript.com/) - Used for responsive navbar operation
-* [jQuery]        (https://jquery.com/) - Used for responsive navbar operation
+* [jQuery]      (https://jquery.com/) - Used for responsive navbar operation
 
 ## Contributing
 
@@ -37,7 +37,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 * **Sean Leif Hellier** - *Initial work:*
                                         * [Website](http://www.seanhellier.com)
-                                        * [Github](https://github.com/seanhellier)
+                                        * [Github](https://github.com/seanhellier/slh_portfolio)
 
 ## Contributors
 
