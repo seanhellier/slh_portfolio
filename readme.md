@@ -45,7 +45,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
                                         * [Portfolio](https://ho-tonym.github.io/portfolio/)
                                         * [Github](https://github.com/ho-tonym)
 * **Daniel Mayer** - *Initial work* -
-                                        * [Portfolio](https://github.com/PurpleBooth)
+                                        * [Portfolio](https://danmayer218.github.io/Daniel-Mayer-Designer-Developer/)
                                         * [Github](https://github.com/DanMayer218)
 
 ## License
