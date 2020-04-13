@@ -87,7 +87,7 @@ body {
 }
 
 .portfolioimage {
-    width: 50%;
+    width: 100%;
     Height: auto;
     border-radius: 25px;
     margin: auto;
@@ -104,7 +104,7 @@ body {
     text-size-adjust: 13px;
     line-height: 0%;
     color: rgb(58, 61, 61);
-    /* margin-top: 10px; */
+    /* padding: 0 100px 0 100px; */
 
 }
 
@@ -116,7 +116,7 @@ body {
     font-size: 14px;
 }
 
-.panel-blue {
+.panel {
     /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
@@ -136,7 +136,7 @@ body {
 
 .logos {
     width: auto;
-    height: 65px;
+    height: 90px;
     margin: 20px;
 }
 
