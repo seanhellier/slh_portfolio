@@ -140,6 +140,12 @@ body {
     margin: 20px;
 }
 
+.portfoliopics {
+    width: 250px;
+    height: auto;
+    margin: 20px;
+}
+
 #portfoliorow {
     margin-top: 20px;
     display: flex;
