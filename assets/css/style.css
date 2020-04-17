@@ -31,6 +31,18 @@ body {
     margin-top: 5px;
 }
 
+#portfolioname {
+    margin-left: 30px;
+}
+
+#skills {
+    margin-left: 30px;
+}
+
+#contact {
+    margin-left: 30px;
+}
+
 #Form-email5 {
     color: black;
 }
@@ -52,11 +64,15 @@ body {
     scroll-snap-type: x mandatory;
 }
 
+.skillscard {
+    background-color: white;
+}
+
 .skills-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
+    margin: 0px 60px 0px 60px;
 }
 
 .card {
@@ -145,12 +161,18 @@ body {
     align-content: center;
 }
 
+.panel-poftfolio {
+    /* border: 1px solid black; */
+    margin-right: 100px;
+}
 
 
 .logos {
     width: auto;
-    height: 90px;
-    margin: 20px;
+    height: 80px;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .portfoliopics {
@@ -221,4 +243,28 @@ body {
         font-size: 14px;
         margin: 0px 10px 0px 10px;
     }
+
+    .bannerfont {
+        font-family: "Open Sans", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .smallbannerfont {
+        font-family: "Open Sans", sans-serif;
+        text-size-adjust: 16px;
+        line-height: 60%;
+        color: azure;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    #landingparagraph {
+        font-size: 13px;
+        margin-top: 35px;
+        text-align: center;
+    }
+
+
 }
